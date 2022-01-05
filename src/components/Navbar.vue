@@ -1,0 +1,52 @@
+<template>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light px-5 shadow fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="../assets/img/logo.png" width="170" height="31">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto fs-6">
+                    <li class="nav-item ms-4">
+                        <router-link class="nav-link" to="/">Home</router-link>
+                    </li>
+                    <li class="nav-item ms-4">
+                        <router-link class="nav-link" to="/list">List</router-link>
+                    </li>
+                    <li class="nav-item ms-4">
+                        <router-link class="nav-link" to="/">About</router-link>
+                    </li>
+                    <li class="nav-item ms-4">
+                        <router-link class="nav-link" to="/">History</router-link>
+                    </li>
+                    <li class="nav-item ms-4">
+                        <router-link class="nav-link" to="/">Login</router-link>
+                    </li>
+                    <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown link
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end of navbar -->
+</template>
+
+<script>
+export default {
+    name : "Navbar"
+};
+</script>
+
+<style>
+</style>
