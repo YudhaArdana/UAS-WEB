@@ -1,8 +1,8 @@
 <template>
   <h1 class="mt-5 pt-5 mx-auto text-color fw-bold text-center">LIST MOBIL</h1>
-  <div class="row row-cols-1 row-cols-md-4 g-4 px-5 pt-3">
+  <div class="row row-cols-1 row-cols-md-4 g-4 px-5 pt-3 pb-5">
     <div class="col">
-      <router-link to="/detailproduk">
+      <router-link to="/detailproduk" class="text-decoration-none">
         <div class="card text-color1">
         <img src="../assets/img/car1.jpg" class="card-img-top" alt="" />
         <div class="card-body">

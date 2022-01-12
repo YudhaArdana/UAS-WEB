@@ -68,7 +68,7 @@
             </div> -->
         </div>
 
-        <router-link to="/list">
+        <router-link to="/list" class="text-decoration-none">
             <div class="px-5">
                 <button
                     class="mx-auto btn btn-primary btn-light mt-5 py-2 d-flex"

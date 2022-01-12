@@ -20,10 +20,10 @@
                         <router-link class="nav-link" to="/">About</router-link>
                     </li>
                     <li class="nav-item ms-4">
-                        <router-link class="nav-link" to="/">History</router-link>
+                        <router-link class="nav-link" to="/history">History</router-link>
                     </li>
                     <li class="nav-item ms-4">
-                        <router-link class="nav-link" to="/">Login</router-link>
+                        <router-link class="nav-link" to="/login">Login</router-link>
                     </li>
                     <!-- <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">

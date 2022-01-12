@@ -1,9 +1,22 @@
 <template>
     <footer class="bg-light pt-4">
-        <div class="container-fluid py-4"></div>
+        <p
+        class="
+            py-2
+            text-color
+            fs-2
+            fw-bold
+            teks-center
+            justify-content-center
+            d-flex
+        "
+        >
+        ABOUT
+        </p>
+        <div class="container-fluid"></div>
             <div class="row row-cols-3 row-cols-md-3 g-4 mx-5 text-color1">
                 <div class="col">
-                    <img class="img-fluid ps-3 rounded mx-auto d-block" src="../assets/img/logo.png" alt="logo" width="170" height="61">
+                    <img class="img-fluid ps-3 mx-auto d-block" src="../assets/img/logo.png" alt="logo" width="170" height="61">
                     
                 </div>
                 <div class="col px-4">
